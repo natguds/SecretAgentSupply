@@ -1,0 +1,63 @@
+html {
+  font-size: 16px;
+  color: white;
+}
+
+/* Universal Styles */
+
+.container {
+  width: 900px;
+  display: flex;
+  align-items: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+
+/* Logo */
+
+.logo {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+}
+
+.logo img {
+  height: 25%;
+  width: auto;
+}
+
+.logo span {
+  padding-left: 20px;
+  font-size: 1.5rem;
+}
+
+/* Main Banner */
+
+.main-banner {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navigation */
+
+
+
+/* Product Grid */
+
+
+
+/* Location */
+
+
+
+/* Hours */
+
+
+
+/* Footer */
