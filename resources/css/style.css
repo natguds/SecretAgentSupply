@@ -20,6 +20,11 @@ html {
   background-color: black;
 }
 
+.logo .container {
+  display: flex;
+  align-items: center;
+}
+
 .logo img {
   height: 1.5rem;
   width: auto;
@@ -39,9 +44,14 @@ html {
   background-size: cover;
 }
 
+.main-banner .container {
+  display: flex;
+}
+
 .headlines {
   width: 20rem;
-  margin: 2rem 3rem;
+  margin-top: 3rem;
+  padding: 2rem 3rem;
   background-color: black;
 }
 
@@ -53,7 +63,7 @@ html {
 .main-banner h2 {
   font-size: 2rem;
   font-weight: bold;
-  margin-top: 0.25rem;
+  padding: 0.25rem 0;
 }
 
 
@@ -75,7 +85,8 @@ html {
 .product-menu {
   display: flex;
   justify-content: space-between;
-  margin-top: 3rem;
+  margin: 3rem 0;
+
 }
 
 .product {
@@ -85,7 +96,7 @@ html {
   width: 30%;
 }
 
-.product .image-content {
+.image-content {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -96,15 +107,43 @@ html {
 .product img {
   max-height: 9rem;
   max-width: 9rem;
-  margin: 2rem auto;
+  margin: 2rem 0;
 }
 
-/* Location */
+.product span {
+  width: 100%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border: 4px solid black;
+  background-color: black;
+  text-align: center;
+}
 
+/* Info */
 
+.info {
 
-/* Hours */
+}
 
+.info-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info-details {
+  width: 35%;
+  padding: 1rem 0 1rem 2rem;
+  background-color: black;
+}
+
+.hours {
+  color: black;
+}
+
+.location {
+  color: black;
+}
 
 
 /* Footer */
